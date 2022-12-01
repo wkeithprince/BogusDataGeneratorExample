@@ -1,5 +1,5 @@
 # BogusDataGeneratorExample
-This is a working example of how to use the Bogus library in a .net/EF project to generate bogus test data on the fly. Please refer to my blog post here for more information. 
+This is a working example of how to use the Bogus library in a .net/EF project to generate bogus test data on the fly. Please refer to my blog post [here](https://medium.com/@KeithPrinceBlog/fake-it-till-you-make-it-with-bogus-data-2947fe8c4483) for more information. 
 
 # SQL Database Setup
 For this example I used the LocalDb. You will need to create a Database named 'BogusDataExample' and then run the below script to create the table. This project uses Entity Framework and all paths, models and context files including config file with connection string points to the LocalDB and this DB name.
